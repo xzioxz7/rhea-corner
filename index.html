@@ -1,0 +1,1518 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rhea's Corner 💙</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         GLOBAL UI
+    ========================== -->
+
+    <div id="particles"></div>
+
+    <div class="progress-wrap">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <div class="section-counter" id="sectionCounter">
+        1 / 12
+    </div>
+
+    <button id="musicBtn" class="music-btn" aria-label="Mute music">
+        🔊
+    </button>
+
+    <main id="experience">
+
+        <!-- =========================
+             SECTION 1
+             OPENING
+        ========================== -->
+
+        <section
+            id="section1"
+            class="page-section active"
+            data-section="1"
+            data-bg="bg-01.jpeg"
+        >
+
+            <div class="overlay"></div>
+
+            <div class="section-content opening-content">
+
+                <div class="small-label">
+                    A VERY IMPORTANT WEBSITE
+                </div>
+
+                <h1>
+                    WELCOME TO<br>
+                    <span>RHEA'S CORNER</span>
+                </h1>
+
+                <p>
+                    A small corner of the internet dedicated
+                    to one very specific human.
+                </p>
+
+                <button class="main-btn" id="enterBtn">
+                    ENTER ✨
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 2
+             BREAK THE DOOR
+        ========================== -->
+
+        <section
+            id="section2"
+            class="page-section"
+            data-section="2"
+            data-bg="bg-02.jpeg"
+        >
+
+            <div class="overlay dark-overlay"></div>
+
+            <div class="section-content">
+
+                <div class="danger-label">
+                    ⚠️ DANGER ALERT
+                </div>
+
+                <h2>
+                    This place contains an
+                    <span>unreasonable amount of Rhea.</span>
+                </h2>
+
+                <p class="instruction">
+                    The door appears to be locked.
+                    <br>
+                    There is only one solution.
+                </p>
+
+                <div class="door-area">
+
+                    <div class="door-glow"></div>
+
+                    <button
+                        id="magicDoor"
+                        class="magic-door"
+                        aria-label="Break the door"
+                    >
+
+                        <div class="door-top">
+                            🔐
+                        </div>
+
+                        <div class="door-title">
+                            BREAK<br>THE DOOR
+                        </div>
+
+                        <div class="door-hint">
+                            TAP / CLICK
+                        </div>
+
+                        <div class="crack crack1"></div>
+                        <div class="crack crack2"></div>
+                        <div class="crack crack3"></div>
+
+                    </button>
+
+                    <div id="smashText" class="smash-text">
+                        SMASH! 💥
+                    </div>
+
+                    <div id="doorCounter" class="door-counter">
+                        0 / 6
+                    </div>
+
+                </div>
+
+                <div
+                    id="doorReveal"
+                    class="door-reveal"
+                >
+
+                    <h3>
+                        THE DOOR HAS BEEN DESTROYED. 💀
+                    </h3>
+
+                    <div class="door-rhea-grid">
+
+                        <img src="images/rhea-1.jpeg" alt="Rhea">
+                        <img src="images/rhea-2.jpeg" alt="Rhea">
+                        <img src="images/rhea-3.jpeg" alt="Rhea">
+
+                    </div>
+
+                    <button
+                        class="continue-btn"
+                        data-next="3"
+                    >
+                        PROCEED →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 3
+             WHO'S RHEA
+        ========================== -->
+
+        <section
+            id="section3"
+            class="page-section"
+            data-section="3"
+            data-bg="bg-03.jpeg"
+        >
+
+            <div class="overlay"></div>
+
+            <div class="section-content">
+
+                <div class="section-number">
+                    03
+                </div>
+
+                <h2>
+                    🌸 Who's Rhea?
+                </h2>
+
+                <p class="section-intro">
+                    Well... let's try to explain.
+                </p>
+
+                <div class="rhea-gallery">
+
+                    <div class="rhea-card">
+                        <img
+                            src="images/rhea-1.jpeg"
+                            alt="Rhea portrait 1"
+                        >
+                        <div class="photo-caption">
+                            Introverted IRL.
+                        </div>
+                    </div>
+
+                    <div class="rhea-card">
+                        <img
+                            src="images/rhea-2.jpeg"
+                            alt="Rhea portrait 2"
+                        >
+                        <div class="photo-caption">
+                            Sweet when you get to know her.
+                        </div>
+                    </div>
+
+                    <div class="rhea-card">
+                        <img
+                            src="images/rhea-3.jpeg"
+                            alt="Rhea portrait 3"
+                        >
+                        <div class="photo-caption">
+                            Chaotic when she's comfortable.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="typing-lines">
+
+                    <p>Introverted IRL.</p>
+                    <p>Sweet when you get to know her.</p>
+                    <p>Caring when it actually matters.</p>
+                    <p>Chaotic when she's comfortable.</p>
+                    <p>
+                        Professional yapper when she's comfortable. 😂
+                    </p>
+
+                </div>
+
+                <p class="highlight-line">
+                    Basically, she's a little bit of everything.
+                </p>
+
+                <button
+                    class="continue-btn"
+                    data-next="4"
+                >
+                    PROCEED TO HER INTERESTS →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 4
+             INTERESTS
+        ========================== -->
+
+        <section
+            id="section4"
+            class="page-section"
+            data-section="4"
+            data-bg="bg-04.jpeg"
+        >
+
+            <div class="overlay"></div>
+
+            <div class="section-content">
+
+                <div class="section-number">
+                    04
+                </div>
+
+                <h2>
+                    🎀 Rhea's Interests
+                </h2>
+
+                <p class="section-intro">
+                    A few things that make Rhea... Rhea.
+                </p>
+
+                <div class="interest-grid">
+
+                    <article class="interest-card">
+
+                        <div class="interest-icon">
+                            🐱
+                        </div>
+
+                        <h3>
+                            Cats
+                        </h3>
+
+                        <p class="interest-description">
+                            She doesn't just like cats.
+                            She has a whole different level
+                            of attachment to them.
+                        </p>
+
+                        <img
+                            src="images/interest-cats.jpeg"
+                            alt="Rhea's love for cats"
+                        >
+
+                        <button class="expand-interest">
+                            READ MORE
+                        </button>
+
+                    </article>
+
+
+                    <article class="interest-card">
+
+                        <div class="interest-icon">
+                            🎧
+                        </div>
+
+                        <h3>
+                            Music
+                        </h3>
+
+                        <p class="interest-description">
+                            Put on some music and suddenly
+                            she's in her own little world.
+                        </p>
+
+                        <img
+                            src="images/interest-music.jpeg"
+                            alt="Music"
+                        >
+
+                        <button class="expand-interest">
+                            READ MORE
+                        </button>
+
+                    </article>
+
+
+                    <article class="interest-card">
+
+                        <div class="interest-icon">
+                            😴
+                        </div>
+
+                        <h3>
+                            Sleeping
+                        </h3>
+
+                        <p class="interest-description">
+                            Professional sleeper.
+                            Competitive sleeper.
+                            Probably undefeated.
+                        </p>
+
+                        <img
+                            src="images/interest-sleep.jpeg"
+                            alt="Sleeping"
+                        >
+
+                        <button class="expand-interest">
+                            READ MORE
+                        </button>
+
+                    </article>
+
+
+                    <article class="interest-card">
+
+                        <div class="interest-icon">
+                            🗣️
+                        </div>
+
+                        <h3>
+                            Yapping
+                        </h3>
+
+                        <p class="interest-description">
+                            Give her the right person and
+                            she can turn "hi" into a
+                            three-hour conversation.
+                        </p>
+
+                        <img
+                            src="images/interest-yapping.jpeg"
+                            alt="Yapping"
+                        >
+
+                        <button class="expand-interest">
+                            READ MORE
+                        </button>
+
+                    </article>
+
+
+                    <article class="interest-card">
+
+                        <div class="interest-icon">
+                            🎮
+                        </div>
+
+                        <h3>
+                            Gaming
+                        </h3>
+
+                        <p class="interest-description">
+                            Things get significantly more
+                            serious once the game starts.
+                        </p>
+
+                        <img
+                            src="images/interest-gaming.jpeg"
+                            alt="Gaming"
+                        >
+
+                        <button class="expand-interest">
+                            READ MORE
+                        </button>
+
+                    </article>
+
+
+                    <article class="interest-card">
+
+                        <div class="interest-icon">
+                            📱
+                        </div>
+
+                        <h3>
+                            Just Vibing
+                        </h3>
+
+                        <p class="interest-description">
+                            Sometimes there is no mission.
+                            No objective.
+                            Just vibes.
+                        </p>
+
+                        <img
+                            src="images/interest-vibing.jpeg"
+                            alt="Just vibing"
+                        >
+
+                        <button class="expand-interest">
+                            READ MORE
+                        </button>
+
+                    </article>
+
+                </div>
+
+                <button
+                    class="continue-btn"
+                    data-next="5"
+                >
+                    PROCEED →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 5
+             FUNNY MOMENTS
+        ========================== -->
+
+        <section
+            id="section5"
+            class="page-section"
+            data-section="5"
+            data-bg="bg-05.jpeg"
+        >
+
+            <div class="overlay"></div>
+
+            <div class="section-content">
+
+                <div class="section-number">
+                    05
+                </div>
+
+                <h2>
+                    😂 Funny Moments
+                </h2>
+
+                <p class="section-intro">
+                    Unfortunately, there is evidence.
+                </p>
+
+                <div class="funny-grid">
+
+                    <div class="funny-card">
+                        <span>🎮</span>
+                        <h3>
+                            THE CARMILLA INCIDENT
+                        </h3>
+                        <p>
+                            Global Carmilla btw.
+                            69–67 Carmilla user.
+                            Please don't question the statistics.
+                            They are classified.
+                        </p>
+                    </div>
+
+                    <div class="funny-card">
+                        <span>💀</span>
+                        <h3>
+                            CERTIFIED NOOB
+                        </h3>
+                        <p>
+                            Somehow she manages to make
+                            every match ten times more chaotic.
+                            A truly unique talent.
+                        </p>
+                    </div>
+
+                    <div class="funny-card">
+                        <span>⚡</span>
+                        <h3>
+                            XAVIER = KILL STEALER
+                        </h3>
+                        <p>
+                            Give Rhea Xavier and suddenly
+                            every kill on the map belongs to her.
+                            That hero has witnessed things.
+                        </p>
+                    </div>
+
+                    <div class="funny-card">
+                        <span>🛡️</span>
+                        <h3>
+                            GOLD LANE PROTECTION PROGRAM
+                        </h3>
+                        <p>
+                            Honestly, she needs a daddy in the
+                            gold lane to protect her because
+                            apparently surviving alone is optional.
+                        </p>
+                    </div>
+
+                    <div class="funny-card">
+                        <span>⛏️</span>
+                        <h3>
+                            MINECRAFT SURVIVAL
+                        </h3>
+                        <p>
+                            She dies every time in Minecraft.
+                            Every. Single. Time.
+                            At this point the mobs are probably
+                            waiting for her.
+                        </p>
+                    </div>
+
+                    <div class="funny-card quote-card">
+                        <span>🎲</span>
+                        <h3>
+                            FINAL SOLUTION
+                        </h3>
+                        <p>
+                            "Rhea should honestly just play Ludo."
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="moment-box">
+
+                    <div id="momentResult">
+                        Today's Rhea moment is currently classified. 💀
+                    </div>
+
+                    <button
+                        id="momentBtn"
+                        class="main-btn"
+                    >
+                        🎲 RHEA MOMENT OF THE DAY
+                    </button>
+
+                </div>
+
+                <button
+                    class="continue-btn"
+                    data-next="6"
+                >
+                    PROCEED TO CLASSIFIED AREA →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 6
+             ZESTY
+        ========================== -->
+
+        <section
+            id="section6"
+            class="page-section zesty-section"
+            data-section="6"
+            data-bg="bg-06.jpeg"
+        >
+
+            <div class="overlay zesty-overlay"></div>
+
+            <div class="section-content">
+
+                <div id="zestyWarning">
+
+                    <div class="warning-symbol">
+                        ⚠️
+                    </div>
+
+                    <h2>
+                        RESTRICTED AREA
+                    </h2>
+
+                    <p>
+                        YOU HAVE ENTERED THE PART OF THE WEBSITE
+                        THAT PROBABLY SHOULD HAVE STAYED CLASSIFIED.
+                    </p>
+
+                    <button
+                        id="zestyEnter"
+                        class="danger-btn"
+                    >
+                        ENTER AT YOUR OWN RISK
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="zestyContent"
+                    class="hidden"
+                >
+
+                    <div class="classified">
+                        TOP SECRET
+                    </div>
+
+                    <h2>
+                        🌶️ ZESTY DEPARTMENT
+                    </h2>
+
+                    <div class="case-file">
+
+                        <div>
+                            <span>
+                                RHEA'S ALLEGATIONS
+                            </span>
+                            <strong>
+                                MANY
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>
+                                EVIDENCE
+                            </span>
+                            <strong>
+                                UNFORTUNATELY ABUNDANT
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>
+                                VICTIMS
+                            </span>
+                            <strong>
+                                ME 💀
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <h3 class="investigation-title">
+                        EXHIBIT A — "YEAH, I KNOW RHEA."
+                    </h3>
+
+                    <p class="zesty-comment">
+                        Yeah, I know Rhea.
+                        Unfortunately, I also know exactly what
+                        kind of things she finds attractive. 💀
+                    </p>
+
+                    <p class="zesty-comment">
+                        Apparently Fredrinn is the standard now.
+                        Big muscles, handsome face and enough
+                        confidence to make the situation worse.
+                    </p>
+
+                    <p class="zesty-comment dirty-line">
+                        "Yeah, I know Rhea.
+                        She likes getting absolutely smashed by
+                        Daddy Fredrinn apparently. 💀🌶️"
+                    </p>
+
+                    <p class="zesty-comment">
+                        Your Honour, I am simply reporting the evidence.
+                        I am not responsible for the allegations.
+                    </p>
+
+
+                    <div class="fredrinn-grid">
+
+                        <img src="images/fredrinn-1.jpeg" alt="Fredrinn">
+                        <img src="images/fredrinn-2.jpeg" alt="Fredrinn">
+                        <img src="images/fredrinn-3.jpeg" alt="Fredrinn">
+                        <img src="images/fredrinn-4.jpeg" alt="Fredrinn">
+
+                    </div>
+
+
+                    <h3 class="investigation-title">
+                        EXHIBIT B — THE BULLYING EVIDENCE
+                    </h3>
+
+                    <p class="zesty-comment">
+                        I know Rhea.
+                        She bullies me.
+                        The evidence is unfortunately abundant.
+                    </p>
+
+                    <div class="chat-grid">
+
+                        <img
+                            src="images/zesty-chat-1.jpeg"
+                            alt="Rhea chat screenshot"
+                        >
+
+                        <img
+                            src="images/zesty-chat-2.jpeg"
+                            alt="Rhea chat screenshot"
+                        >
+
+                        <img
+                            src="images/zesty-chat-3.jpeg"
+                            alt="Rhea chat screenshot"
+                        >
+
+                        <img
+                            src="images/zesty-chat-4.jpeg"
+                            alt="Rhea chat screenshot"
+                        >
+
+                    </div>
+
+
+                    <div class="verdict">
+                        <span>FINAL VERDICT</span>
+                        <strong>
+                            RHEA IS GUILTY. 💀
+                        </strong>
+                    </div>
+
+
+                    <button
+                        class="continue-btn"
+                        data-next="7"
+                    >
+                        ESCAPE THE CLASSIFIED AREA →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 7
+             MLBB
+        ========================== -->
+
+        <section
+            id="section7"
+            class="page-section"
+            data-section="7"
+            data-bg="bg-07.jpeg"
+        >
+
+            <div class="overlay"></div>
+
+            <div class="section-content">
+
+                <div class="game-loading">
+
+                    <div class="match-found">
+                        MATCH FOUND
+                    </div>
+
+                    <div class="loading-line">
+                        <div></div>
+                    </div>
+
+                </div>
+
+                <div id="mlbbContent">
+
+                    <div class="section-number">
+                        07
+                    </div>
+
+                    <h2>
+                        🎮 OUR MLBB MOMENTS
+                    </h2>
+
+                    <div class="player-panel">
+
+                        <div class="player">
+                            <span>PLAYER 1</span>
+                            <strong>YOU</strong>
+                        </div>
+
+                        <div class="versus">
+                            VS
+                        </div>
+
+                        <div class="player">
+                            <span>PLAYER 2</span>
+                            <strong>RHEA</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="status-line">
+                        STATUS: Somehow still playing together 💀
+                    </div>
+
+                    <h3 class="duo-title">
+                        DUO HISTORY
+                    </h3>
+
+                    <div class="mlbb-grid">
+
+                        <img
+                            src="images/mlbb-1.jpeg"
+                            alt="MLBB moment 1"
+                        >
+
+                        <img
+                            src="images/mlbb-2.jpeg"
+                            alt="MLBB moment 2"
+                        >
+
+                        <img
+                            src="images/mlbb-3.jpeg"
+                            alt="MLBB moment 3"
+                        >
+
+                        <img
+                            src="images/mlbb-4.jpeg"
+                            alt="MLBB moment 4"
+                        >
+
+                    </div>
+
+                    <button
+                        class="continue-btn"
+                        data-next="8"
+                    >
+                        NEXT: CAT CHAOS →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 8
+             CAT GAMES
+        ========================== -->
+
+        <section
+            id="section8"
+            class="page-section"
+            data-section="8"
+            data-bg="bg-08.jpeg"
+        >
+
+            <div class="overlay"></div>
+
+            <div class="section-content">
+
+                <div class="section-number">
+                    08
+                </div>
+
+                <h2>
+                    🐱 Cat Mini-Games
+                </h2>
+
+                <p class="section-intro">
+                    Five tiny games. One mission.
+                    Become the Cat Master.
+                </p>
+
+
+                <!-- GAME 1 -->
+
+                <div class="cat-game">
+
+                    <h3>
+                        🐱 CATCH THE CAT
+                    </h3>
+
+                    <p>
+                        Catch the mischievous cat!
+                    </p>
+
+                    <div
+                        class="game-arena"
+                        id="catchArena"
+                    >
+
+                        <button
+                            class="cat-target"
+                            id="catchCat"
+                        >
+                            <img
+                                src="images/cat-mischievous.jpeg"
+                                alt="Mischievous cat"
+                            >
+                        </button>
+
+                    </div>
+
+                    <div class="score">
+                        Score:
+                        <span id="catchScore">0</span>
+                    </div>
+
+                    <button
+                        class="small-btn"
+                        id="resetCatch"
+                    >
+                        RESET
+                    </button>
+
+                </div>
+
+
+                <!-- GAME 2 -->
+
+                <div class="cat-game">
+
+                    <h3>
+                        🐾 TAP THE CAT
+                    </h3>
+
+                    <p>
+                        Tap the cat as many times as you can!
+                    </p>
+
+                    <div
+                        class="game-arena tap-arena"
+                        id="tapArena"
+                    >
+
+                        <button
+                            class="cat-target"
+                            id="tapCat"
+                        >
+                            <img
+                                src="images/cat-happy.jpeg"
+                                alt="Happy cat"
+                            >
+                        </button>
+
+                    </div>
+
+                    <div class="score">
+                        Score:
+                        <span id="tapScore">0</span>
+                    </div>
+
+                    <button
+                        class="small-btn"
+                        id="resetTap"
+                    >
+                        RESET
+                    </button>
+
+                </div>
+
+
+                <!-- GAME 3 -->
+
+                <div class="cat-game">
+
+                    <h3>
+                        🧠 CAT MEMORY
+                    </h3>
+
+                    <p>
+                        Match all the cats.
+                    </p>
+
+                    <div
+                        class="memory-grid"
+                        id="memoryGrid"
+                    ></div>
+
+                    <div class="score">
+                        Matches:
+                        <span id="memoryScore">0</span>
+                    </div>
+
+                    <button
+                        class="small-btn"
+                        id="resetMemory"
+                    >
+                        RESET
+                    </button>
+
+                </div>
+
+
+                <!-- GAME 4 -->
+
+                <div class="cat-game">
+
+                    <h3>
+                        🍗 FEED THE CAT
+                    </h3>
+
+                    <p>
+                        Feed the hungry cat!
+                    </p>
+
+                    <div class="feed-area">
+
+                        <div
+                            class="hungry-cat"
+                            id="hungryCat"
+                        >
+                            <img
+                                src="images/cat-hungry.jpeg"
+                                alt="Hungry cat"
+                            >
+                        </div>
+
+                        <button
+                            id="foodBtn"
+                            class="food-btn"
+                        >
+                            🍗
+                        </button>
+
+                    </div>
+
+                    <div
+                        id="feedMessage"
+                        class="game-message"
+                    >
+                        The cat is hungry...
+                    </div>
+
+                    <button
+                        class="small-btn"
+                        id="resetFeed"
+                    >
+                        RESET
+                    </button>
+
+                </div>
+
+
+                <!-- GAME 5 -->
+
+                <div class="cat-game">
+
+                    <h3>
+                        😺 CAT REACTION
+                    </h3>
+
+                    <p>
+                        Pick the correct reaction!
+                    </p>
+
+                    <div class="reaction-question">
+
+                        <h4 id="reactionQuestion">
+                            Someone gives Rhea a huge meal.
+                        </h4>
+
+                        <div class="reaction-options">
+
+                            <button
+                                data-reaction="hungry"
+                            >
+                                <img
+                                    src="images/cat-hungry.jpeg"
+                                    alt="Hungry reaction"
+                                >
+                            </button>
+
+                            <button
+                                data-reaction="excited"
+                            >
+                                <img
+                                    src="images/cat-excited.jpeg"
+                                    alt="Excited reaction"
+                                >
+                            </button>
+
+                            <button
+                                data-reaction="sleepy"
+                            >
+                                <img
+                                    src="images/cat-sleepy.jpeg"
+                                    alt="Sleepy reaction"
+                                >
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        id="reactionMessage"
+                        class="game-message"
+                    >
+                        Choose wisely.
+                    </div>
+
+                    <button
+                        class="small-btn"
+                        id="resetReaction"
+                    >
+                        RESET
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="catMaster"
+                    class="achievement hidden"
+                >
+                    🐾 CAT MASTER ACHIEVED
+                </div>
+
+
+                <button
+                    class="continue-btn"
+                    data-next="9"
+                >
+                    PROCEED →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 9
+             STATS
+        ========================== -->
+
+        <section
+            id="section9"
+            class="page-section"
+            data-section="9"
+            data-bg="bg-09.jpeg"
+        >
+
+            <div class="overlay"></div>
+
+            <div class="section-content stats-content">
+
+                <div class="section-number">
+                    09
+                </div>
+
+                <h2>
+                    📊 RHEA.EXE
+                </h2>
+
+                <p class="section-intro">
+                    Completely scientific statistics.
+                    Probably.
+                </p>
+
+                <div class="stats-list">
+
+                    <div class="stat">
+                        <div class="stat-heading">
+                            <span>Introvert</span>
+                            <strong data-value="87">0%</strong>
+                        </div>
+
+                        <div class="stat-track">
+                            <div
+                                class="stat-fill"
+                                data-width="87"
+                            ></div>
+                        </div>
+                    </div>
+
+
+                    <div class="stat">
+                        <div class="stat-heading">
+                            <span>Yapping</span>
+                            <strong data-value="94">0%</strong>
+                        </div>
+
+                        <div class="stat-track">
+                            <div
+                                class="stat-fill"
+                                data-width="94"
+                            ></div>
+                        </div>
+                    </div>
+
+
+                    <div class="stat">
+                        <div class="stat-heading">
+                            <span>Sleep</span>
+                            <strong data-value="91">0%</strong>
+                        </div>
+
+                        <div class="stat-track">
+                            <div
+                                class="stat-fill"
+                                data-width="91"
+                            ></div>
+                        </div>
+                    </div>
+
+
+                    <div class="stat">
+                        <div class="stat-heading">
+                            <span>Cat Obsession</span>
+                            <strong data-value="98">0%</strong>
+                        </div>
+
+                        <div class="stat-track">
+                            <div
+                                class="stat-fill"
+                                data-width="98"
+                            ></div>
+                        </div>
+                    </div>
+
+
+                    <div class="stat">
+                        <div class="stat-heading">
+                            <span>Chaos</span>
+                            <strong data-value="89">0%</strong>
+                        </div>
+
+                        <div class="stat-track">
+                            <div
+                                class="stat-fill"
+                                data-width="89"
+                            ></div>
+                        </div>
+                    </div>
+
+
+                    <div class="stat">
+                        <div class="stat-heading">
+                            <span>Caring</span>
+                            <strong data-value="96">0%</strong>
+                        </div>
+
+                        <div class="stat-track">
+                            <div
+                                class="stat-fill"
+                                data-width="96"
+                            ></div>
+                        </div>
+                    </div>
+
+
+                    <div class="stat error-stat">
+
+                        <div class="stat-heading">
+                            <span>Fredrinn Obsession</span>
+                            <strong>
+                                ERROR
+                            </strong>
+                        </div>
+
+                        <div class="error-bar">
+                            TOO HIGH
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <button
+                    class="continue-btn"
+                    data-next="10"
+                >
+                    CONTINUE →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 10
+             OVERALL VIBE
+        ========================== -->
+
+        <section
+            id="section10"
+            class="page-section final-section"
+            data-section="10"
+            data-bg="bg-10.jpeg"
+        >
+
+            <div class="overlay soft-overlay"></div>
+
+            <div class="section-content">
+
+                <div class="section-number">
+                    10
+                </div>
+
+                <h2>
+                    🌙 Her Overall Vibe
+                </h2>
+
+                <div class="vibe-content">
+
+                    <div class="rose-wrapper">
+
+                        <img
+                            src="images/rose.jpeg"
+                            alt="A rose for Rhea"
+                        >
+
+                    </div>
+
+                    <div class="vibe-text">
+
+                        <p>
+                            She's difficult to describe
+                            with just a few words.
+                        </p>
+
+                        <p>
+                            She can be quiet sometimes,
+                            chaotic other times,
+                            incredibly caring when it matters,
+                            and somehow manages to make
+                            ordinary conversations feel special.
+                        </p>
+
+                        <p>
+                            She can go from completely silent
+                            to talking for hours once she's comfortable.
+                        </p>
+
+                        <p>
+                            And somehow, all of those little pieces
+                            make her...
+                            <strong>Rhea.</strong>
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <button
+                    class="continue-btn"
+                    data-next="11"
+                >
+                    ONE LAST THING →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 11
+             FINAL MESSAGE
+        ========================== -->
+
+        <section
+            id="section11"
+            class="page-section final-section message-section"
+            data-section="11"
+            data-bg="bg-11.jpeg"
+        >
+
+            <div class="overlay soft-overlay"></div>
+
+            <div class="section-content message-content">
+
+                <div class="section-number">
+                    11
+                </div>
+
+                <h2>
+                    For Rhea, ❤️
+                </h2>
+
+                <div class="love-letter">
+
+                    <p>
+                        I don't think I can properly explain
+                        how much I appreciate having you in my life.
+                    </p>
+
+                    <p>
+                        Beneath all the chaos, the yapping,
+                        the random moments and all the things
+                        that make you... well, you —
+                        you're genuinely one of the sweetest
+                        and most caring people I've gotten to know.
+                    </p>
+
+                    <p>
+                        I appreciate the time you give me,
+                        the conversations we have,
+                        the little moments,
+                        and even the completely stupid ones.
+                    </p>
+
+                    <p>
+                        You don't have to do anything extraordinary
+                        to make me happy.
+                        Sometimes just talking to you is enough.
+                    </p>
+
+                    <p>
+                        And even though we're not always in the
+                        same place, I'm really glad that somewhere
+                        along the way, our paths crossed.
+                    </p>
+
+                    <p class="final-love">
+                        Thank you for being you, Rhea. ❤️
+                    </p>
+
+                </div>
+
+                <button
+                    class="continue-btn"
+                    data-next="12"
+                >
+                    CONTINUE →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 12
+             ENDING
+        ========================== -->
+
+        <section
+            id="section12"
+            class="page-section ending-section"
+            data-section="12"
+            data-bg="bg-12.jpeg"
+        >
+
+            <div class="overlay soft-overlay"></div>
+
+            <div class="section-content ending-content">
+
+                <h2>
+                    You've reached the end of
+                    Rhea's little corner. 🐾
+                </h2>
+
+                <p>
+                    Thanks for surviving the chaos.
+                </p>
+
+                <button
+                    id="restartBtn"
+                    class="main-btn"
+                >
+                    ↻ RESTART
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
